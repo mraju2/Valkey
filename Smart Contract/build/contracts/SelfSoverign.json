@@ -1,0 +1,81 @@
+{
+  "contract_name": "SelfSoverign",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "b",
+          "type": "address"
+        }
+      ],
+      "name": "getSSID",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint64"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "i",
+          "type": "address"
+        }
+      ],
+      "name": "getAadhar",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint64"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "aadharNumber",
+          "type": "uint64"
+        }
+      ],
+      "name": "add",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint64"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b60028054600160a060020a03191633600160a060020a03161790555b5b61020b8061003c6000396000f300606060405263ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416635eb9bf91811461005357806367fa04cb1461008f5780637b881196146100cb575b600080fd5b341561005e57600080fd5b610072600160a060020a0360043516610108565b60405167ffffffffffffffff909116815260200160405180910390f35b341561009a57600080fd5b610072600160a060020a0360043516610131565b60405167ffffffffffffffff909116815260200160405180910390f35b34156100d657600080fd5b61007267ffffffffffffffff6004351661015a565b60405167ffffffffffffffff909116815260200160405180910390f35b600160a060020a03811660009081526001602052604090205467ffffffffffffffff165b919050565b600160a060020a03811660009081526020819052604090205467ffffffffffffffff165b919050565b6000336020604051908101604090815267ffffffffffffffff85168252600160a060020a03831660009081526020819052208151815467ffffffffffffffff1990811667ffffffffffffffff92831617909255600160a060020a0384166000908152600160205260409020805490921686800182161791829055169250505b509190505600a165627a7a72305820181a1ccc039c7d80bfc4f046804d9bebd9d1cca021f39062027891bf38b37a980029",
+  "networks": {
+    "1510388731818": {
+      "events": {},
+      "links": {},
+      "address": "0xb158b63a053b5d2dfdfb76df397e92460000e11d",
+      "updated_at": 1510392172769
+    },
+    "1510394105485": {
+      "events": {},
+      "links": {},
+      "address": "0xb158b63a053b5d2dfdfb76df397e92460000e11d",
+      "updated_at": 1510395113402
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1510395113402
+}
